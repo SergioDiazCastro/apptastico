@@ -433,7 +433,6 @@ footer{
 
     header{
         display: block;
-        width: 100%;
     }
    header img{
        display: flex;
@@ -442,12 +441,17 @@ footer{
        
    }
 
-   header ul {
+   nav{
        display: flex;
-       margin: 0px;
-       justify-content: center;
-       font-size: small;
+       width: 100%;
+       justify-content: space-between;
    }
+
+   nav ul{
+    display: flex;
+    font-size: 15px;
+   }
+
    
 
    .part2{
