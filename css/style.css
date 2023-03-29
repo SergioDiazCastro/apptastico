@@ -427,12 +427,12 @@ footer{
     
     html, body{
         max-width: 100%;
-        overflow-x: hidden;
     }
 
 
     header{
         display: block;
+        width: 100%;
     }
    header img{
        display: flex;
@@ -445,7 +445,11 @@ footer{
        display: flex;
        margin: 0px;
        padding: 0px;
+       width: 100%;
+       justify-content: center;
+       font-size: small;
    }
+   
 
    .part2{
     display: flex;
