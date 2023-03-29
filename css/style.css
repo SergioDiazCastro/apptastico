@@ -445,7 +445,6 @@ footer{
        display: flex;
        margin: 0px;
        padding: 0px;
-       gap: 80px;
    }
 
    .part2{
@@ -456,7 +455,7 @@ footer{
     }
 
     .part2 h1{
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
     
