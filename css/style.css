@@ -449,6 +449,8 @@ footer{
    nav ul{  
     display: inline-block;
     font-size: 20px;
+    list-style: disc;
+    line-height: 40px;
    }
 
    
