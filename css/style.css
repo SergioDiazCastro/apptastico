@@ -427,6 +427,7 @@ footer{
     
     html, body{
         max-width: 100%;
+        overflow-x: hidden;
     }
 
 
@@ -444,7 +445,7 @@ footer{
    header ul {
        display: flex;
        margin: 0px;
-       padding: 0px;
+
        width: 100%;
        justify-content: center;
        font-size: small;
