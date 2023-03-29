@@ -445,8 +445,6 @@ footer{
    header ul {
        display: flex;
        margin: 0px;
-
-       width: 100%;
        justify-content: center;
        font-size: small;
    }
