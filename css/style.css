@@ -444,6 +444,9 @@ footer{
     display: block;
     padding-left: 8%;
 }
+    .part1 img{
+        width: 200%;
+    }
    .part2 h1{
     display: flex;
     font-size: 30px;
