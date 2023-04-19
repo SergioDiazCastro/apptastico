@@ -507,7 +507,7 @@ footer{
         width: 50%;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     html, body{
         max-width: 100%;
         overflow-x: hidden;
@@ -569,5 +569,31 @@ footer{
     .final{
         width: 30%;
     }
-
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .part2{
+        padding-right: 7%;
+    }
+    .medio h2{
+        width: 40%;
+        padding-left: 31%;
+    }
+    .derecha h2{
+        display: flex;
+        width: 40%;
+        padding-left: 18%;
+    }
+    .celulares1{
+        width: 23%;
+    }
+    .link{
+        margin-left: 19%;
+    }
+    .final{
+        width: 30%;
+    }
 }
