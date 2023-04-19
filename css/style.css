@@ -4,7 +4,6 @@
 body{
 margin: 0px;
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -12,14 +11,12 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 header img{
     display: flex;
     height: 50px;
     margin-top: 13px;
     padding-left: 120px;
 }
-
 header ul{
     display: flex;
     flex-direction: row;
@@ -29,7 +26,6 @@ header ul{
     color: white;
     font-size: 20px;
 }
-
 .home:hover{
     padding:5px;
     background: linear-gradient(180deg, rgba(57,67,75,1) 0%, rgba(65,76,84,1) 51%, rgba(68,80,88,1) 100%);
@@ -58,7 +54,6 @@ header ul{
     width: 90px;
     text-align: center;
 }
-
 .home a{
     text-decoration: none;
     color: white;
@@ -75,51 +70,41 @@ header ul{
     text-decoration: none;
     color: white;
 }
-
-
 .contenido1{
     display: flex;
     background-color: #4C5B66;;
     justify-content: space-between;
 }
-
 .part1{
     display: flex;
     width: 40%;
     justify-content: center;
 }
-
 .part2{
     display: flex;
     flex-direction: column;
     padding-right: 30%;
     align-items: flex-start;
 }
-
 .part2 h1{
     font-size: 50px;
     color: white;
 }
-
 .part2 p{
     font-size: 18px;
 }
-
 .parrafo{
     color: #DCDCDC;
 }
-
 .parrafo2{
     color: #86898B;
 }
-
 .part3{
     display: flex;
     gap: 50px;
     font-size: 18px;
     align-items: center;
 }
-
 .linea{
     border-bottom: solid 1px white;
     width: 167px;
@@ -128,7 +113,6 @@ header ul{
     text-decoration: none;
     color: white;
 }
-
 .part3 button{
     padding: 15px;
     border-radius: 20px;
@@ -137,7 +121,6 @@ header ul{
     background: linear-gradient(180deg, rgb(84, 178, 236) 0%, rgba(66,157,213,1) 51%, rgba(56,139,205,1) 100%);
     box-shadow: 0px 4px 8px rgba(34, 34, 34, 0.6);
 }
-
 .part3 button a{
     color: white;
     text-decoration: none;
@@ -145,18 +128,14 @@ header ul{
 .part3 button:hover{
     cursor: pointer;
 }
-
 .part3 p{
     color: white;
 }
-
 .part3 li {
     list-style: none;
-   
     color: white;
     width: 180px;
 }
-
 .barraImg{
     display: flex;
     justify-content: space-evenly;
@@ -164,28 +143,22 @@ header ul{
     padding-top: 15px;
     padding-bottom: 15px;
     box-shadow: 0px 1px 4px rgb(170, 170, 170);
-
 }
-
 .contenido2{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     padding-top: 100px;
 }
-
 .contenido2 div{
     width:20%;
 }
-
 .contenido2 h2{
     color: #7A858D;
 }
-
 .contenido2 p{
     color: #B0B0B0;
 }
-
 .contenido2 button{
     padding:12px;
     border-radius: 5px;
@@ -198,40 +171,33 @@ header ul{
     text-decoration: none;
     color: white;
 }
-
 .contenido2 button:hover{
     cursor: pointer;
 }
-
 .imagenes{
     display: flex;
     flex-direction: column;
 }
-
 .selected{
     display: flex;
     padding-left: 7%;
     margin-top: 5%;
     color: #7A858D;
 }
-
 .celulares{
     display: flex;
     justify-content: center;
     gap: 2%;
 }
-
 .celulares1{
     border: solid 5px white;
     box-shadow: 0px 0px 2px 2px #d9d9d9;
 }
-
 .contenido3{
     display: flex;
     margin-top: 7%;
     padding-bottom: 50px;
 }
-
 .left{
     width: 55%;
 }
@@ -539,5 +505,55 @@ footer{
     }
     .final{
         width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    header img{
+        display: flex;
+        height: 40px;
+        margin-top: 13px;
+        padding-left: 75px;
+    }
+    header ul{
+        gap: 50px;
+        padding-right: 75px;
+    }
+    .part1{
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        margin-top: 76px;
+    }
+    .part2{
+        margin-left: 7%;
+        width: 80%;
+    }
+    .part2 h1{
+        font-size: 30px;
+    }
+    .part2 p{
+        font-size: 17px;
+    }
+    .part3{
+        gap: 20px;
+        font-size: 18px;
+        align-items: center;
+    }  
+    .medio h2{
+        width: 10%;
+        padding-left: 40px;
+    }
+    .celulares{
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 4%;
+    }
+    .celulares img{
+        margin-bottom: 4%;
+        height: 220px;
     }
 }
