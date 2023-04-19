@@ -507,7 +507,7 @@ footer{
         width: 50%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     html, body{
         max-width: 100%;
         overflow-x: hidden;
@@ -556,4 +556,18 @@ footer{
         margin-bottom: 4%;
         height: 220px;
     }
+    .link{
+        margin-left: 26%;
+    }
+    .picture1{
+        margin-bottom: -10%;
+        width: 90%;
+    }
+    .picture2{
+        width: 90%;
+    }
+    .final{
+        width: 30%;
+    }
+
 }
